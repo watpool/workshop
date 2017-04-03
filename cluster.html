@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+  <head>
+  <style type="text/css">
+   html, body { height: 100%; margin: 0; padding: 0; }
+   #map { height: 100%; }
+</style>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="markerclusterer/src/markerclusterer.js"></script>
+
+    <script type="text/javascript">
+      function initialize() {
+        var center = new google.maps.LatLng(43.468, -80.539);
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: center,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var markers = [];
+        for (var i = 0; i < 35; i++) {
+          var shops = data.coffee[i];
+          var latLng = new google.maps.LatLng(shops.latitude,
+              shops.longitude);
+          var marker = new google.maps.Marker({
+            position: latLng
+          });
+          markers.push(marker);
+        }
+        var markerCluster = new MarkerClusterer(map, markers);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-container"><div id="map"></div></div>
+  </body>
+</html>

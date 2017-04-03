@@ -1,0 +1,73 @@
+﻿var data = {
+ "coffee": [
+{"shopname": "Math Coffee & Donut Shop", "latitude": 43.4719005, "longitude": -80.54359926}
+,
+{"shopname": "ES Coffee Shop", "latitude": 43.46829626, "longitude": -80.54276898}
+,
+{"shopname": "William's Fresh Café", "latitude": 43.4681875, "longitude": -80.54345026}
+,
+{"shopname": "Common Ground", "latitude": 43.4664105, "longitude": -80.54500326}
+,
+{"shopname": "The Funcken Café", "latitude": 43.4690695, "longitude": -80.54565726}
+,
+{"shopname": "Arts Student Union", "latitude": 43.4688435, "longitude": -80.54193226}
+,
+{"shopname": "Watson's Eatery", "latitude": 43.4677965, "longitude": -80.54630526}
+,
+{"shopname": "Starbucks", "latitude": 43.4708355, "longitude": -80.54349326}
+,
+{"shopname": "Watson's Mug", "latitude": 43.4679187, "longitude": -80.54635168}
+,
+{"shopname": "Science C & D", "latitude": 43.4709455, "longitude": -80.54307426}
+,
+{"shopname": "PAS Lounge", "latitude": 43.4671465, "longitude": -80.54258226}
+,
+{"shopname": "St. Jerome's Cafeteria", "latitude": 43.4692215, "longitude": -80.54550526}
+,
+{"shopname": "Tim Horton's", "latitude": 43.46913035, "longitude": -80.54018564}
+,
+{"shopname": "Graduate House", "latitude": 43.4697795, "longitude": -80.54083426}
+,
+{"shopname": "Waterloo Engineering Society C&D", "latitude": 43.4707095, "longitude": -80.53924027}
+,
+{"shopname": "CEIT cafe", "latitude": 43.4715775, "longitude": -80.54206126}
+,
+{"shopname": "mudie's", "latitude": 43.4716475, "longitude": -80.54994626}
+,
+{"shopname": "Tim Hortons", "latitude": 43.4713395, "longitude": -80.54519826}
+,
+{"shopname": "Second Cup", "latitude": 43.4723605, "longitude": -80.53583727}
+,
+{"shopname": "Williams Fresh Cafe", "latitude": 43.4722665, "longitude": -80.53865327}
+,
+{"shopname": "Pastry Plus", "latitude": 43.46960175, "longitude": -80.54344023}
+,
+{"shopname": "Browsers Cafe", "latitude": 43.4668595, "longitude": -80.54227826}
+,
+{"shopname": "Modern Languages Cafeteria", "latitude": 43.4687945, "longitude": -80.54266926}
+,
+{"shopname": "Pastry Plud", "latitude": 43.4668595, "longitude": -80.54227826}
+,
+{"shopname": "Common Ground", "latitude": 43.4663635, "longitude": -80.54483926}
+,
+{"shopname": "common ground", "latitude": 43.4668015, "longitude": -80.54480526}
+,
+{"shopname": "Watson's eatery", "latitude": 43.4675985, "longitude": -80.54606426}
+,
+{"shopname": "Browsers cafe", "latitude": 43.4697345, "longitude": -80.54208226}
+,
+{"shopname": "Tim Hortons", "latitude": 43.4689095, "longitude": -80.54271226}
+,
+{"shopname": "DC Tim Hortons Express", "latitude": 43.47261009, "longitude": -80.54229668}
+,
+{"shopname": "DC Tim Hortons", "latitude": 43.47294087, "longitude": -80.54267523}
+,
+{"shopname": "Brubakers SLC", "latitude": 43.47202278, "longitude": -80.54540225}
+,
+{"shopname": "Starbucks BMH", "latitude": 43.47350684, "longitude": -80.54556224}
+,
+{"shopname": "REVelation REV", "latitude": 43.47030098, "longitude": -80.55425088}
+,
+{"shopname": "Liquid Assets HH", "latitude": 43.46837487, "longitude": -80.54142631}
+,
+]}
